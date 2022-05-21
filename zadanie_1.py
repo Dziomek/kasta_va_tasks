@@ -1,6 +1,7 @@
 '''
-Napisz program, który poinformuje użytkownika o aktualnej godzinie za pomocą głosu.
-Uruchomienie powinno odbyć się poprzez linię komend (funkcja input())
+Napisz program, który poinformuje użytkownika o aktualnej godzinie za pomocą głosu po wpisaniu przez Ciebie odpowiedniego ciągu znaków.
+Nie powinno mieć znaczenia to czy używasz małych, czy dużych liter.
+Uruchomienie powinno odbyć się poprzez linię komend (funkcja input()).
 PRZYKŁAD:
 - input: 'What time is it?'
 - SPEAKING: 'The time is 12:00'
@@ -11,6 +12,7 @@ Kroki, które należy podjąć:
 2) wczytać tekst przy użyciu funkcji input()
 3) uruchomić silnik i sprawić, by program mówił (łącznie w tym kroku wykorzystuje się dwie komendy obiektu engine)
 4) pobrać aktualną datę przy użyciu metody modułu datetime i dodaniu jej do outputu
+
 '''
 
 
@@ -19,5 +21,3 @@ import pyttsx3
 
 if __name__ == '__main__':
     pass
-
-

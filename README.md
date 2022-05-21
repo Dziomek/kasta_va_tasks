@@ -1,8 +1,14 @@
 # kasta_va_tasks
+Do zrealizowania zadań będą potrzebne następujące moduły:
+1) pyttsx3 ///// pip install pyttsx3
+2) webbrowser ///// pip install webbrowser
+3) datetime 
 
-Treści do zadań znajdują się w plikach zadanie_NR.py
+Treści do zadań znajdują się w plikach zadanie_NR.py.
 
 PRZYDATNE ŹRÓDŁA:
-https://pypi.org/project/pyttsx3/ (zajrzyj do Usage)
-https://stackoverflow.com/questions/44858120/how-to-change-the-voice-in-pyttsx3
-https://techtutorialsx.com/2017/05/06/python-pyttsx-changing-speech-rate-and-volume/
+
+1) https://pypi.org/project/pyttsx3/
+2) https://stackoverflow.com/questions/44858120/how-to-change-the-voice-in-pyttsx3
+3) https://techtutorialsx.com/2017/05/06/python-pyttsx-changing-speech-rate-and-volume/
+4) https://stackoverflow.com/questions/31715119/how-can-i-open-a-website-in-my-web-browser-using-python

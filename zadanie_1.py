@@ -11,13 +11,13 @@ Kroki, które należy podjąć:
 2) wczytać tekst przy użyciu funkcji input()
 3) uruchomić silnik i sprawić, by program mówił (łącznie w tym kroku wykorzystuje się dwie komendy obiektu engine)
 4) pobrać aktualną datę przy użyciu metody modułu datetime i dodaniu jej do outputu
-
-# PRZYDATNE ŹRÓDŁA:
-https://pypi.org/project/pyttsx3/ (zajrzyj do Usage)
-https://stackoverflow.com/questions/44858120/how-to-change-the-voice-in-pyttsx3
-https://techtutorialsx.com/2017/05/06/python-pyttsx-changing-speech-rate-and-volume/
-
 '''
 
+
+from datetime import datetime
+import pyttsx3
+
+if __name__ == '__main__':
+    pass
 
 

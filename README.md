@@ -1,9 +1,12 @@
 # kasta_va_tasks
 Do zrealizowania zadań będą potrzebne następujące moduły:
-1) pyttsx3 ///// pip install pyttsx3
-2) webbrowser ///// pip install webbrowser
+
+1) pyttsx3
+2) webbrowser
 3) datetime 
-4) PySide2 ///// pip install PySide2
+4) PySide2
+
+zainstaluj je, używając polecenia: **_pip install -r requirements.txt_**
 
 Treści do zadań znajdują się w plikach zadanie_NR.py.
 

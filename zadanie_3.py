@@ -1,6 +1,7 @@
 '''
 W tym zadaniu GUI i silnik asystenta są już zaimplementowane. Dokonaj paru modyfikacji:
 1) Zmień napis QFrame o nazwie nameLabel tak, by zamiast napisu 'created by...' wyświetlała napis 'created by [Twoje imię]'
+Zwróć uwagę na to, by tekst ramki zmienić po tym, gdy utworzy się okienko (linia 39.)
 2) Spraw, by program pobierał tekst z QLineEdit o nazwie commandEdit i zapisał do zmiennej text (linia 33.)
 
 Przykłady odwołania się do elementów GUI:
@@ -29,7 +30,7 @@ class TaskPage(QMainWindow):
 
 if __name__ == '__main__':
     def speak():
-        text = '' # W TYM MIEJSCU TEKST MA BYĆ POBIERANY Z COMMAND EDIT
+        text = "" # W TYM MIEJSCU POBIERZ TEKST Z commandEdit
         engine.say(text)
         engine.runAndWait()
 

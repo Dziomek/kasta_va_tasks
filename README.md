@@ -3,6 +3,7 @@ Do zrealizowania zadań będą potrzebne następujące moduły:
 1) pyttsx3 ///// pip install pyttsx3
 2) webbrowser ///// pip install webbrowser
 3) datetime 
+4) PySide2 ///// pip install PySide2
 
 Treści do zadań znajdują się w plikach zadanie_NR.py.
 
